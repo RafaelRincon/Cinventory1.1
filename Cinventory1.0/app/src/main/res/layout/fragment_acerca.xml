@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marcorafael.prueba1.fragmentAcerca">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinventory"
+        android:id="@+id/twfacer_cinventory"
+        android:layout_marginTop="46dp"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:id="@+id/twfacer_version"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_below="@+id/twfacer_cinventory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/twfacer_logoanacointer"
+        android:background="@drawable/logouno"
+        android:layout_below="@+id/twfacer_version"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2015-2016 Anaco InterLED."
+        android:id="@+id/twfacer_cinventoryCA"
+        android:textColor="#000000"
+        android:layout_below="@+id/twfacer_logoanacointer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todos los derechos reservados."
+        android:id="@+id/twfacer_todoslosderechos"
+        android:textColor="#000000"
+        android:layout_below="@+id/twfacer_cinventoryCA"
+        android:layout_alignLeft="@+id/twfacer_logoanacointer"
+        android:layout_alignStart="@+id/twfacer_logoanacointer" />
+</RelativeLayout>

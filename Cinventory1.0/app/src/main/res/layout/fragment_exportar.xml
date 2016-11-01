@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marcorafael.prueba1.fragmentExportar">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione Formato:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/bfex_excel"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/logodeexcel"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/bfex_excel"
+        android:layout_alignLeft="@+id/bfex_excel"
+        android:layout_alignStart="@+id/bfex_excel"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/logointer"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excel"
+        android:id="@+id/tvfex_excel"
+        android:layout_alignTop="@+id/bfex_excel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InterLED"
+        android:id="@+id/tvfex_planillaled"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignLeft="@+id/tvfex_excel"
+        android:layout_alignStart="@+id/tvfex_excel"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+</RelativeLayout>

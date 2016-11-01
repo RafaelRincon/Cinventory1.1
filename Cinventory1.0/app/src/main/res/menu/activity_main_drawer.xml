@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/agregar"
+            android:icon="@drawable/ic_menu_agregaar"
+            android:title="Agregar Articulo" />
+        <item
+            android:id="@+id/buscar"
+            android:icon="@drawable/ic_menu_buscaar"
+            android:title="Busqueda" />
+        <item
+            android:id="@+id/estado"
+            android:icon="@drawable/ic_menu_estadoo"
+            android:title="Estado de Articulos" />
+
+        <item
+            android:id="@+id/exportar"
+            android:icon="@drawable/ic_menu_exportaar"
+            android:title="Exportar" />
+
+    </group>
+
+
+    <item android:title="Otras opciones">
+        <menu>
+    <item
+        android:id="@+id/configuracion"
+        android:icon="@drawable/ic_menu_configuracioon"
+        android:title="Configuracion"/>
+
+    <item
+        android:id="@+id/acercade"
+        android:icon="@drawable/ic_menu_acercadee"
+        android:title="Acerca de" />
+        </menu>
+
+    </item>
+</menu>

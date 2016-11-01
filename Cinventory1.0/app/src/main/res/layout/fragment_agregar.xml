@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marcorafael.prueba1.fragmentAgregar">
+
+    <!-- TODO: Update blank fragment layout -->
+<!-- hablameee-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+
+                    <EditText
+                        android:layout_width="229dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etfa_codigo"
+                        android:hint="Codigo"
+                        android:textColor="@color/colorPrimary" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="Codigo"
+                        android:id="@+id/bfa_codigo"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/btn_redondeadouno"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posee Codigo"
+                    android:id="@+id/cb_poseecodigo"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_nombre"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:hint="Nombre"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_fadquisicion"
+                    android:hint="Fecha de Adquisicion"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_marca"
+                    android:hint="Marca"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_modelo"
+                    android:hint="Modelo"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_referencia"
+                    android:hint="Referencia"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_cantidad"
+                    android:hint="Cantidad"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_ubicacion"
+                    android:hint="Ubicacion"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Seleccione el Estado del Articulo:"
+                    android:id="@+id/twfa_seleccioneestado"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="10dp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nuevo"
+                        android:id="@+id/rgfa_nuevo"
+                        android:textColorHint="@color/colorPrimary" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="En Uso"
+                        android:id="@+id/rgfa_bueno"
+                        android:textColorHint="@color/colorPrimary" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dañado"
+                        android:id="@+id/rgfa_danado"
+                        android:textColorHint="@color/colorPrimary" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reparacion"
+                        android:id="@+id/rgfa_reparacion"
+                        android:textColorHint="@color/colorPrimary" />
+
+                </RadioGroup>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Guardar"
+                    android:id="@+id/bfa_guardar"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/btn_redondeadouno"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
